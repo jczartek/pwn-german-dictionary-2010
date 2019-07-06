@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <menu id="dict-menu">
+    <section id="pwn-german-dictionary-2010-section">
+      <attribute name="label" translatable="yes">PWN German Dictionary 2010</attribute>
+      <item>
+        <attribute name="label" translatable="yes">German-Polish</attribute>
+        <attribute name="action">win.switch-dict</attribute>
+        <attribute name="target">pwn-german-polish-dictionary-2010</attribute>
+      </item>
+      <item>
+        <attribute name="label" translatable="yes">Polish-German</attribute>
+        <attribute name="action">win.switch-dict</attribute>
+        <attribute name="target">pwn-polish-german-dictionary-2010</attribute>
+      </item>
+    </section>
+  </menu>
+</interface>

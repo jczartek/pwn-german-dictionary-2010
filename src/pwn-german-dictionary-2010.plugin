@@ -1,0 +1,5 @@
+[Plugin]
+Module=pwn-german-dictionary-2010
+Name=PWN German Dictionary 2010
+Description=The PWN German-Polish Polish-German Dictionary
+Authors=Jakub Czartek

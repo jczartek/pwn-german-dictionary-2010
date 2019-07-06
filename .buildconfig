@@ -1,0 +1,16 @@
+[default]
+name=Default
+runtime=host
+toolchain=default
+config-opts=
+run-opts=
+prefix=/home/jakub/.local/share/gydict/plugins
+app-id=
+postbuild=
+prebuild=
+default=true
+
+[default.environment]
+CPPFLAGS=-I/opt/gydict/include/gydict/libgydict-1.0
+LDFLAGS=-L/opt/gydict/lib64/gydict
+PKG_CONFIG_PATH=/opt/gydict/lib64/gydict/pkgconfig
