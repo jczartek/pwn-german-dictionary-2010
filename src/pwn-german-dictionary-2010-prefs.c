@@ -70,7 +70,6 @@ pwn_german_dictionary2010_prefs_load (GyPrefsViewAddin *self,
     dzl_preferences_add_file_chooser (DZL_PREFERENCES (prefs), "dictionaries", "paths", "org.gtk.gydict.path",
                                       "path", path_polang, "PWN Polish-German 2010", "Select polniem.win",
                                       GTK_FILE_CHOOSER_ACTION_OPEN, NULL, 0);
-  path_group = gy_prefs_view_get_size_group (GY_PREFS_VIEW (prefs), "paths");
   widget = dzl_gtk_widget_find_child_typed (dzl_preferences_get_widget (DZL_PREFERENCES (prefs),
                                                                         PWN_GERMAN_DICTIONARY2010_PREFS (self)->ids[1]),
                                             GTK_TYPE_FILE_CHOOSER_BUTTON);
